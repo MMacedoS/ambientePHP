@@ -1,4 +1,13 @@
 .idea/
-html/*
+html/anexo/*
+html/assets/*
+html/index.php
+html/Controller
+html/Config
+html/Model
+html/public
+html/Rota
+html/View
+html/api
 db/mysql/*
 /log/*
