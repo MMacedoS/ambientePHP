@@ -52,7 +52,6 @@ class ReservaService
     {
         $inicio = new DateTime($dataEntrada);
         $fim = new DateTime($dataSaida);
-        $fim->modify('-1 day');
 
         return new DatePeriod($inicio, new DateInterval('P1D'), $fim);
     }
@@ -63,7 +62,7 @@ class ReservaService
             SELECT COUNT(*) 
             FROM diarias 
             WHERE reserva_id = :reservaId 
-            AND data = :data
+            AND data = :data AND status = 1
         ";
 
         $cmd = $this->conexao->prepare($query);
