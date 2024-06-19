@@ -109,7 +109,7 @@ class ReservaController extends \Controller{
     public function getDadosReservas($code)
     {
         
-        $this->atualizaDiariaNotExists($code);
+        // $this->atualizaDiariaNotExists($code);
         $reserva = $this->reserva_model->getDadosReservas($code);
         echo json_encode($reserva);
     }
