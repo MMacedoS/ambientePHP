@@ -1,12 +1,17 @@
-/Control
-.index.php
+
+/Control/Conexao.php
+# /index.php
 .autenticar.php
-.config.php
+# .config.php
 .functions.php
+/Config
 /vendor
 /fonts
-/rota
+# /rota
 /scss
 /image
 /anexos
-.google1f27ab731816ba7c.html
+.htaccess
+index.php
+**/Public
+**/App/Control/Conexao.php

@@ -1,0 +1,107 @@
+body {
+    background-color: #fcfcfc;
+}
+
+.navbar {
+    background-color: #e8e8e8 !important;
+}
+
+.navbar img {
+    width: 200px;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar a {
+    color: #071e51;
+    font-size: 15px;
+}
+
+.navbar a:hover {
+    color: #244181;
+}
+
+.nav {
+    background-color: #f4f4f4 !important;
+}
+
+.nav a {
+    color: #071e51;
+    font-size: 14px;
+}
+
+.nav .active {
+    background-color: #8d2525 !important;
+}
+
+.card {
+    width: 280px !important;
+    border-radius: 10px !important;
+    margin: 0 auto;
+    box-shadow: opx 2px 2px rgba(0, 0, 0, 0.2);
+    /*  */
+}
+
+.card-body {
+    padding-bottom: 2px !important;
+    padding-top: 10px !important;
+}
+
+.card p {
+    margin: 0;
+    padding: 0;
+}
+
+.icone-card {
+    font-size: 70px;
+}
+
+.titulo-card {
+    font-size: 15px;
+    text-align: right;
+}
+
+.subtitulo-card {
+    font-size: 40px;
+    text-align: right;
+}
+
+.rodape-card {
+    font-size: 13px;
+    text-align: center;
+}
+
+.badge {
+    background-color: #2c2b2b !important;
+    color: #fff;
+}
+
+.nav .active .badge {
+    background-color: #fff !important;
+    color: #2c2b2b;
+}
+
+.btn-secondary {
+    background-color: #747373;
+}
+
+.registro {
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.botao-novo {
+    margin-bottom: 35px;
+}
+
+#homeSubmenu {
+    background-color: #f3aeae;
+    padding: 12px;
+}
+
+.modal-dialog {
+    max-width: 60% !important;
+    margin: 1.75rem auto;
+}
